@@ -7,11 +7,11 @@ import java.util.Scanner;
  */
 public class Main {
     public static void main(String[] args) {
-        Scanner cin = new Scanner(new BufferedReader(new InputStreamReader(System.in)));
+        Scanner in = new Scanner(new BufferedReader(new InputStreamReader(System.in)));
         int[] counts = new int[26];
         int max = 0;
         for (int i = 0; i < 4; i++) {
-            String line = cin.nextLine();
+            String line = in.nextLine();
             for (int j = 0; j < line.length(); j++) {
                 char c = line.charAt(j);
                 if (c >= 'A' && c <= 'Z') {

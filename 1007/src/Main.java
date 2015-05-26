@@ -8,13 +8,13 @@ import java.util.Scanner;
  */
 public class Main {
     public static void main(String[] args) {
-        Scanner cin = new Scanner(new BufferedReader(new InputStreamReader(System.in)));
-        int n = cin.nextInt();
-        int m = cin.nextInt();
-        cin.nextLine();
+        Scanner in = new Scanner(new BufferedReader(new InputStreamReader(System.in)));
+        int n = in.nextInt();
+        int m = in.nextInt();
+        in.nextLine();
         Sequence[] sequences = new Sequence[m];
         for (int i = 0; i < m; i++) {
-            sequences[i] = new Sequence(cin.nextLine());
+            sequences[i] = new Sequence(in.nextLine());
         }
 
         Arrays.sort(sequences);

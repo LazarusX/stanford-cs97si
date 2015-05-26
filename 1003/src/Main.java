@@ -7,9 +7,9 @@ import java.util.Scanner;
  */
 public class Main {
     public static void main(String[] args) {
-        Scanner cin = new Scanner(new BufferedReader(new InputStreamReader(System.in)));
-        while (cin.hasNext()) {
-            double length = cin.nextDouble();
+        Scanner in = new Scanner(new BufferedReader(new InputStreamReader(System.in)));
+        while (in.hasNext()) {
+            double length = in.nextDouble();
             if (length == 0.00) {
                 break;
             }
